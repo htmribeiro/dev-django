@@ -82,10 +82,14 @@ Seguir as instruções conforme descrito no [README.md](https://github.com/PyMyS
   ```
 
 * Do módulo importado iremos utilizar a função chamada **`connect()`**
-  * que utilizaremos para passar os parâmetros de conexão com o db.
+  * onde passaremos os parâmetros de conexão com o db.
     * `user='${USER_NAME}'`
     * `passwd='${USER_PASSWORD}'`
     * `db='${TARGET_DB}'`
+  
+  ```py
+  MySQLdb.connect(user='root', passwd='root#4034', db='son_python_db_api')
+  ```
 
 * Para finalizar o arquivo de teste
   * vamos exibir uma msg de conexão bem sucedida, se a conexão estiver OK.
