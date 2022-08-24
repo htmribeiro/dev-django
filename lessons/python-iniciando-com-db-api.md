@@ -106,15 +106,18 @@ Seguir as instruções conforme descrito no [README.md](https://github.com/PyMyS
 
 #### Solve issue
 
-* [How to Solve MySQL Error: Access denied for user root@localhost][1]
+* How to Solve MySQL Error: [Access denied for user root@localhost][1]
 
 [1]: https://phoenixnap.com/kb/access-denied-for-user-root-localhost
 
 <center>
 
-  [previous](#04---instalando-mysqlclient-python-no-linux) | [home](#python---iniciando-com-db-api) | [next]()
+  [previous](#04---instalando-mysqlclient-python-no-linux) | [home](#python---iniciando-com-db-api) | [next](#07---função-connect)
   -|-|-|
 
 </center>
 
 ---
+
+### 07 - Função connect
+
